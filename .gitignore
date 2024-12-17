@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### maven ###
+mvnw
+mvnw.cmd
+maven-wrapper.properties
+
+### git ###
+.gitattributes
+

@@ -5,9 +5,6 @@ spring:
     hikari:
       maximum-pool-size: 5
     driver-class-name: org.postgresql.Driver
-    username: u_9b35c5a8_174e_4d13_89b7_e07e70d99b88
-    password: Fy1UfqL0p9hK43AZt31QA79AoYq239o1E2jlu5VL92lYB11wibS3
-    url: jdbc:postgresql://pg.rapidapp.io:5433/db_9b35c5a8_174e_4d13_89b7_e07e70d99b88
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:

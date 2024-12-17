@@ -20,6 +20,11 @@ public class ProductController {
         return productRepository.findAll();
     }
 
+    @GetMapping("/{id}")
+    public Product getProduct(@PathVariable Long id) {
+        return productRepository.findById(id).orElseThrow();
+    }
+
     @PostMapping
     public Product createProduct(@RequestBody CreateProductRequest request) {
         Product product = Product.builder()
